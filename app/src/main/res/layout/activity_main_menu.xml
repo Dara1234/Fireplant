@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.dara.wikiplant.MainMenu">
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="333dp"
+        android:layout_height="42dp"
+        android:text="List"
+        tools:layout_editor_absoluteX="26dp"
+        tools:layout_editor_absoluteY="190dp" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="333dp"
+        android:layout_height="42dp"
+        android:text="Scan"
+        tools:layout_editor_absoluteX="22dp"
+        tools:layout_editor_absoluteY="113dp" />
+</android.support.constraint.ConstraintLayout>

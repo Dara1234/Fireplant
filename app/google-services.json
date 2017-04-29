@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "1080367617461",
+    "firebase_url": "https://fireplant-wiki.firebaseio.com",
+    "project_id": "fireplant-wiki",
+    "storage_bucket": "fireplant-wiki.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1080367617461:android:609df6fa700b2341",
+        "android_client_info": {
+          "package_name": "com.example.dara.wikiplant"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1080367617461-o4uku7cib5cnmhhf3qbfafbak3is3qaa.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBeF4PwWxbbK9tE8z5fPBxKt44sL30Vp8c"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

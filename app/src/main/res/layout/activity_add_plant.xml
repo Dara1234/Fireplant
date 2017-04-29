@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.dara.wikiplant.AddPlantActivity">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="349dp"
+        android:layout_height="149dp"
+        app:srcCompat="@mipmap/ic_launcher_round"
+        tools:layout_editor_absoluteX="18dp"
+        tools:layout_editor_absoluteY="40dp" />
+
+    <EditText
+        android:id="@+id/editText_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="Name"
+        tools:layout_editor_absoluteX="85dp"
+        tools:layout_editor_absoluteY="216dp"
+        android:layout_marginTop="44dp"
+        android:layout_below="@+id/imageView"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginLeft="59dp"
+        android:layout_marginStart="59dp" />
+
+    <EditText
+        android:id="@+id/editText_genus"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="Genus"
+        tools:layout_editor_absoluteX="85dp"
+        tools:layout_editor_absoluteY="259dp"
+        android:layout_below="@+id/editText_name"
+        android:layout_alignLeft="@+id/editText_name"
+        android:layout_alignStart="@+id/editText_name" />
+
+    <EditText
+        android:id="@+id/editText_taxonomy"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="Taxonomy"
+        tools:layout_editor_absoluteX="85dp"
+        tools:layout_editor_absoluteY="311dp"
+        android:layout_below="@+id/editText_genus"
+        android:layout_alignLeft="@+id/editText_genus"
+        android:layout_alignStart="@+id/editText_genus" />
+
+    <Button
+        android:id="@+id/button_add"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="add"
+        tools:layout_editor_absoluteX="134dp"
+        tools:layout_editor_absoluteY="419dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="41dp" />
+
+    <EditText
+        android:id="@+id/editText_description"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="Description"
+        tools:layout_editor_absoluteX="85dp"
+        tools:layout_editor_absoluteY="364dp"
+        android:layout_below="@+id/editText_taxonomy"
+        android:layout_alignLeft="@+id/editText_taxonomy"
+        android:layout_alignStart="@+id/editText_taxonomy" />
+</RelativeLayout>
